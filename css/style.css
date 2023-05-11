@@ -1,0 +1,404 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {                 
+    font-family: "Open Sans","Arial", sans-serif;
+    box-sizing: border-box;
+}
+/*Top nav*/
+header{
+    display: flex;
+    background-color: #444444;
+    text-transform: uppercase;
+    border: 0;
+    padding-left: 100px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #9ac051;
+}
+
+nav > ul{
+    display: flex;
+    list-style:none;
+    padding-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li{
+    padding-right: 60px;
+}
+
+.main-site a{
+    font-weight: 800;
+}
+
+/*main container with img as background*/
+
+.main-img{
+    height: 650px;
+    background-image: url("../images/dewang-gupta-272186-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.main-text{
+    text-align: center;
+}
+
+.main-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin: 0;
+}
+.main-text h2{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-text .offer-button{
+    background-color: #9ac051;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.main-text .offer-button:hover{
+    background-color: #647e32;
+}
+.why-us{
+    height: 300px;
+    background-color: #fcfbfb;
+    border-bottom: 1px solid #f2f2f2;
+    color: #444444;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 0 100px ;
+}
+.points h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 30px 0;
+    font-size: 25px;
+}
+.points ul {
+    list-style: none;
+    padding-left: 0;
+}
+.points li{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.points i {
+    color: #9ac051;
+    padding-right: 15px;
+}
+.points li span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.image img{
+    width: 400px;
+    border-radius: 5px;
+}
+.offer{
+    display: flex;
+    padding: 0 100px;
+    justify-content:center;
+}
+.offer figure{
+    width: 400px;
+    background-color: #fcfbfb;
+    border: 1px solid #f2f2f2;
+    margin: 50px 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offer h5 {
+    color: #9ac051;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+.offer p{
+    color: #444444;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
+.offer .circle-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offer .skin-therapy {
+    margin-top: 25px;
+    background-image: url("../images/love-romantic-bath-candlelight.jpg");
+    background-position:bottom;
+}
+.offer .face-procedures{
+    margin-top: 25px;
+    background-image: url("../images/pexels-photo-725998.jpeg");
+    background-position:center;
+}
+.offer .body-peeling{
+    margin-top: 25px;
+    background-image: url("../images/pexels-photo-259810.jpeg");
+    background-position:center;
+}
+.offer .read-more-less-btn{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background-color: #9ac051;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.figure .p{
+    padding: 0 10px;
+}
+.newsletter{
+    height: 250px;
+    background-color: #9ac051;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter h5{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin:0 0 15px 0;
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+}
+.newsletter-form input,
+.newsletter-form button {
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.newsletter-form button{
+    background-color: #647e32;
+    color: #fff;
+}
+.gallery{
+    height: 400px;
+}
+.newsletter-form input{
+    margin-right: 25px;
+    padding: 0 25px;
+    width: 400px;
+}
+.slider-container{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.previous-arrow,
+.next-arrow{
+    color: #dad7d7;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.previous-arrow:hover,
+.next-arrow:hover{
+    color: #9ac051;
+}
+.slider-container i {
+    font-size: 30px;
+}
+.slider li img{
+    width: 500px;
+    border-radius: 7px;
+}
+.slider-stage{
+    width: 500px;
+    overflow-x: hidden;
+}
+
+.slider{
+    list-style: none;
+    width: 500px;
+    padding: 0;
+    display: flex;
+    position: relative;
+
+}
+.go-up{
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+}
+.go-up i{
+    color:#444444;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.go-up i:hover{
+    color: #9ac051;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+    padding: 60px 200px;
+    color: #fff;
+}
+footer > section {
+    width: 400px;
+}
+.about-us h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    margin: 0 0 20px 0;
+}
+.about-us p{
+    font-size: 12px;
+    line-height: 2;
+    margin: 0 0 20px 0;
+}
+.social-media{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-media i{
+    background-color:#9ac051;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.social-media a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact-details{
+    width: 250px;
+    margin-left: 25px;
+}
+.contact-details ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contact-details li{
+    display: flex;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.contact-details i{
+    color: #9ac051;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+.contact-details li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.quick-links{
+    display: flex;
+    width: 400px;
+}
+.quick-links li{
+    margin-bottom: 5px;
+    border-bottom: 1px solid #666464 ;
+    padding-bottom: 13px;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+.quick-links ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 250px;
+}
+.quick-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.quick-links i{
+    color: #9ac051;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.copyrights{
+    background-color: #9ac051;
+    height: 110px;
+    text-align: center;
+}
+.copyrights h5{
+    padding-top: 15px;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+    font-size: 15px;
+}
+.nested-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-transform: none;
+    position: absolute;
+    top: 55px;
+    display: none;
+}
+.nested-menu li{
+    font-size: 15px;
+    font-weight: 200;
+    color: #444444;
+    padding: 10px 15px;
+}
+.nested-menu li:hover{
+    color: #fff;
+    background-color: #9ac051;
+}
+.additional-paragraph{
+    display: none;
+}
+.form-info{
+    margin: 0;
+    padding: 0;
+    display: none;
+    text-align: center;
+}
+.newsletter-form button:hover{
+    color: #fff;
+    background-color: #789e31;
+}
